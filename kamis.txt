@@ -1,0 +1,23 @@
+senin
+
+print("belajar Phyton menyenangkan")
+print("halo dunia")
+
+bilangan1 = 5
+bilangan2 = 10
+kalimat = "Pejuang Data 3"
+
+bilangan1 + bilangan2
+
+# Ini adalah Comment
+print("belajar Phyton")
+
+'''
+Ini adalah komentar panjang
+Bisa digunakan untuk memberikan penjelasan
+panjang pada Sell Kode Phyton,
+Misal dokumentasi program, spesifikasi
+input output atau lainnya
+'''
+
+print('Belajar Phyton menyenangkan')

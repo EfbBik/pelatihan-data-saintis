@@ -1,0 +1,20 @@
+hari senin
+
+SELECT*FROM Invoice 
+group by BillingCountry
+
+SELECT*,COUNT(BillingCountry) as banyak from Invoice
+group by BillingCountry 
+ORDER by banyak DESC 
+
+
+SELECT*,COUNT( BillingCountry) from Invoice
+group by BillingCountry 
+
+SELECT*,MAX(BillingCountry) as maksimum from Invoice
+group by BillingCountry 
+ORDER by maksimum DESC 
+
+SELECT*,MIN(BillingCountry) as minimum from Invoice
+group by BillingCountry
+ORDER by minimum asc
